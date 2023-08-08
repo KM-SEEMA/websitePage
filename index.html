@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="boxes">
+      <h2>Bundle & Save</h2>
+      <div class="box box1" >
+        <div class="left">
+          <input
+            type="radio"
+            id="onePair"
+            name="fav_language1"
+            value="195.00"
+          />
+           
+          <label for="onePair"
+            >1 Pair<br />
+            <h4>DKK 195.00</h4></label
+          ><br />
+        </div>
+        <div class="right"><h5>50% OFF</h5></div>
+      </div>
+      <div class="box box2 selectedBox" >
+        <div class="left">
+          <input
+            type="radio"
+            id="secondPair"
+            name="fav_language2"
+            value="345.00"
+            checked
+          />
+           
+          <label for="secondPair"
+            >2 Pai<br />
+            <h4>DKK 345.00</h4><span id="discount"><strike>DKK 195.00</strike></span></label
+          ><br />
+        </div>
+        <div class="right">
+          <h4>Most Popular</h4>
+          <h5>40% OFF</h5>
+        </div>
+      </div>
+      <div class="box box3" >
+        <div class="left">
+          <input
+            type="radio"
+            id="thirdPair"
+            name="fav_language3"
+            value="528.00"
+          />
+           
+          <label for="thirdPair"
+            >3 Pair<br />
+            <h4>DKK 528.00</h4></label
+          ><br />
+        </div>
+        <div class="right"><h5>60% OFF</h5></div>
+      </div>
+      <div class="price">
+        <h4>Free 2 day Shipping</h4>
+        <h4 id="priceVal">Total : DKK 360.00</h4>
+      </div>
+      <button class="button">
+        <span
+          ><span><b>&#43;</b> Add to Cart</span></span
+        >
+      </button>
+      <div class="copyright"><p>&copy; Powered by Pumper</p></div>
+    </div>
+  </body>
+  <script src="/app.js"></script>
+</html>
